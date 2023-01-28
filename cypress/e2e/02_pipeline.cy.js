@@ -1,11 +1,11 @@
 require('cypress-xpath')
 
 describe('Pipeline 01', () => {
-    it('Prueba paralelismo', () => {
+    it('Prueba paralelismo 02', () => {
 
         cy.viewport(1360, 768)
-        cy.visit('www.google.com')
-        cy.title('eq','Google')
+        cy.visit('www.youtube.com')
+        cy.title('eq','YouTube')
 
     })
 })
