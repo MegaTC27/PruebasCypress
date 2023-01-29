@@ -15,7 +15,7 @@ pipeline {
                         git url: 'https://github.com/MegaTC27/PruebasCypress.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 1893406c-ed6a-40ed-b6a5-ae03f154ab69  --parallel'
+                        bat 'npx cypress run cypress run --record --key 1893406c-ed6a-40ed-b6a5-ae03f154ab69 --parallel'
                     
                     }
                 }
@@ -28,7 +28,7 @@ pipeline {
                         git url: 'https://github.com/MegaTC27/PruebasCypress.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 1893406c-ed6a-40ed-b6a5-ae03f154ab69  --parallel'
+                        bat 'npx cypress run cypress run --record --key 1893406c-ed6a-40ed-b6a5-ae03f154ab69 --parallel'
                     
                     }
                 }
@@ -41,7 +41,7 @@ pipeline {
                         git url: 'https://github.com/RodrigoUdemy/Paralelo_pipline.git'
                         bat 'npm install'
                         bat 'npm update'                       
-                        bat 'npx cypress run cypress run --record --key 7f3ad08e-6c6e-442f-bcbd-cb3269ac5a9c  --parallel'
+                        bat 'npx cypress run cypress run --record --key 1893406c-ed6a-40ed-b6a5-ae03f154ab69 --parallel'
                     
                     }
                 }
