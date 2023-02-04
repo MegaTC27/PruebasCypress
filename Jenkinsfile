@@ -45,6 +45,19 @@ pipeline {
                     
                     }
                 }
+
+                stage('Slave 4') {
+                    agent {
+                        label "Agente_04"
+                    }
+                    steps {
+                        git url: 'https://github.com/MegaTC27/PruebasCypress.git'
+                        bat 'npm install'
+                        bat 'npm update'                       
+                        bat 'npx cypress run --record --key 1893406c-ed6a-40ed-b6a5-ae03f154ab69 --parallel'
+                    
+                    }
+                }
             }
         }
     }
